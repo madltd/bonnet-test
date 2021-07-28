@@ -22,7 +22,7 @@ function addWithComments (
     return one + two;
 }
 
-function defaultArguments(callback = () => {}, defaultArgs = {}) {
+function defaultArguments(callback, defaultArgs = {}) {
     const functionString = callback.toString();
 
     const result = functionString.slice(
